@@ -37,7 +37,6 @@ public class LegacyConfig extends ConfigHolder {
 	public final BooleanOption performanceEntityCullingCAR = new BooleanOption("Check Armorstand Rules", false);
 	public final BooleanOption performanceEntityCullingRNTW = new BooleanOption("Render Nametags Through Walls", true);
 	// ----
-	public final BooleanOption performanceFastWorldSwapping = new BooleanOption("Fast World Swapping", true);
 	public final BooleanOption performanceLowAnimationTick = new BooleanOption("Low Animation Tick", true);
 	public final BooleanOption performanceSheepDyeBlendTable = new BooleanOption("Sheep Dye Blend Table", true);
 	public final BooleanOption performanceStaticParticleColor = new BooleanOption("Static Particle Color", true);
@@ -98,7 +97,6 @@ public class LegacyConfig extends ConfigHolder {
 		);
 
 		performance.add(performanceEntityCulling);
-		performance.add(performanceFastWorldSwapping);
 		performance.add(performanceLowAnimationTick);
 		performance.add(performanceSheepDyeBlendTable);
 		performance.add(performanceStaticParticleColor);
