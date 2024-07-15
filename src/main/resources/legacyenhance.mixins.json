@@ -46,8 +46,6 @@
     "entityculling.DebugHudMixin",
     "entityculling.EntityRenderDispatcherMixin",
     "entityculling.EntityRendererMixin",
-    "fastworldswapping.LoadingScreenRendererMixin",
-    "fastworldswapping.MinecraftClientMixin",
     "fluidstitching.FluidRendererMixin",
     "fontstatereset.TextRendererMixin",
     "foreignkeyboards.MinecraftClientMixin",
